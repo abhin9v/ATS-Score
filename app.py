@@ -9,6 +9,7 @@ from generator import (
 from resume_parser import extract_text_from_pdf
 import os
 from dotenv import load_dotenv
+api_key = st.secrets["PPLX_API_KEY"]
 
 load_dotenv()
 
