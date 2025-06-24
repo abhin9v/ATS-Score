@@ -9,3 +9,6 @@ venv/
 # Python Cache
 __pycache__/
 *.pyc
+
+# In .gitignore
+.streamlit/secrets.toml
